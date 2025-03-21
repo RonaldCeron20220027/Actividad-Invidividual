@@ -5,6 +5,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-color: lightskyblue;
 }
 nav img{
     width: 100px;
@@ -40,17 +41,45 @@ nav a{
 .card h2{
     font-size: 15px;
 }
-.targeta{
+.tarjeta{
     display: flex;
     justify-content: center;
 }
-.card .footer{
-    padding: 25px;
-    justify-items: center;
-}
-.footer a{
-    text-decoration: none;
-}
+
 .Art{
-    justify-content: space-evenly;
+    margin: 20px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px #86B1CC;
+}
+.Art:hover{
+    background-color: #86B1CC;
+    transform: scale(1.05);
+}
+.Art img{
+    width: 100px;
+    display: flex;
+}
+.Art-conten{
+    padding: 45px;
+}
+.Art h1{
+    justify-content: center;
+    color: black;
+}
+.Arte{
+    justify-content: center;
+    min-height: 70px;
+    display: flex;
+    margin: 20px;
+}
+.footer{
+    background-color: lightgrey;
+    color: rgb(39, 38, 36);
+    justify-content: center;
+    min-height: 70px;
+    bottom: 0;
+    position: absolute;
+    width: 1000px;
+    margin-right: 41cm;
 }
